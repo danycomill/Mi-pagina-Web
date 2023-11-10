@@ -1,0 +1,208 @@
+:root{
+    --amarillo-button: #E9D259;
+    --boton-blue: #0F4F8A;
+    --color-texto: rgb(51, 51, 51);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+
+/* ESTILOS - BARRA DE OPCIONES */
+
+header nav{
+    background-color: black;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li{
+    margin: 20px;
+}
+
+header nav ul li{
+    padding-top: 3rem;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 2rem;
+}
+
+
+/* ESTILOS DE FONDO DE HEADER */
+
+header .header-principal{
+    width: 100%;
+    height: 55rem;
+    background-color: rgb(8, 8, 8);
+}
+
+header .header-principal h1{
+    padding-left: 30rem;
+    padding-right: 30rem;
+    text-align: center;
+    padding-top: 10rem;
+    background: #ccc;
+    background: linear-gradient(yellow, rgb(255, 170, 0), rgb(183, 0, 255), rgb(123, 0, 255) );
+    font-family: system-ui;
+    font-size: 10rem;
+    line-height: 115%;
+    
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+header h2{
+    font-size: 5rem;
+    color:rgb(162, 0, 255);
+    text-align: center;
+}
+
+/* header h1{
+    overflow: hidden;
+    cursor: default;
+    transition: all 400ms ease;
+} */
+
+
+/* header h1:hover{
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0);
+    transform: translateY(-8%);
+} */
+
+header .header-principal p{
+    padding-left: 30rem;
+    padding-right: 30rem;
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(187, 187, 187);
+}
+
+header .header-principal .section-ver{
+    padding-left: 71rem;
+    padding-top: 3rem;
+}
+
+header .header-principal .section-ver button a{
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    font-size: 3rem;
+    border-radius: 8px;
+}
+
+
+
+
+/* ESTILOS DE TARJETAS */
+
+main{
+    background-color: rgb(13, 13, 13);
+    display:inline-flexbox;
+    justify-content: center;
+    padding-left: 10%;
+    padding-top: 5rem;
+    color: #fff9;
+    text-align: center;
+}
+
+
+/* main .blog .box{
+    background-color: rgb(34, 34, 34);
+    height: 30rem;
+    border-radius: 8px;
+    margin: 20px;
+    
+}
+
+*/
+
+main .blog .box img{
+    width: 100%;
+    height: 210px;
+    border-radius: 8px;
+    display: inline-block;
+    justify-content: center;
+}
+
+
+main .blog{
+    width: 100%;
+    display: flex;
+    padding-left: 6rem;
+    max-width: 1100px;
+    /* border-radius: 6px;
+    overflow: hidden; */
+}
+
+main .blog .box{
+    width: 100%;
+    height: 40rem;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: rgb(32, 32, 32);
+    box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+main .blog .box:hover{
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.2);
+    transform: translateY(-3%);
+}
+
+
+main .blog .box h1{
+    margin-top: 28px;
+    justify-content: center;
+    font-size: 2.3rem;
+}
+
+main .blog .box p{
+    margin-top: 10px;
+    justify-content: center;
+    font-size: 1.7rem;
+}
+
+main .blog .box .mas{
+    padding-top: 2.7rem;
+}
+
+main .blog .box a{
+    font-size: 1.9rem;
+    text-decoration: none;
+    color: rgb(0, 255, 247);
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer{
+    background-color: #000;
+    padding: 5rem;
+}
+
+
+
+
+
