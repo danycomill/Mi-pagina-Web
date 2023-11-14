@@ -1,17 +1,17 @@
-:root{
-    --amarillo-button: #E9D259;
-    --boton-blue: #0F4F8A;
-    --color-texto: rgb(51, 51, 51);
-}
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 html{
     font-size: 62.5%;
 }
+
+
+
+
 
 /* ESTILOS - BARRA DE OPCIONES */
 
@@ -27,90 +27,75 @@ header nav ul {
 }
 
 header nav ul li{
-    margin: 20px;
+    margin: 1px;
+    padding: 1.3rem;
+    padding-right: 3rem;
 }
-
-header nav ul li{
-    padding-top: 3rem;
-}
-
 header nav ul li a{
     text-decoration: none;
     color: rgb(21, 21, 34);
-    font-size: 2rem;
     font-weight: bold;
 }
 
 
-/* ESTILOS DE FONDO DE HEADER */
 
+/* ESTILOS DEL HEADER */
 header{
     background-color: #edede8;
 }
 
 header .header-principal{
     width: 100%;
-    height: 55rem;
+    height: 30rem;
     
 }
 
 header .header-principal h1{
-    padding-left: 20rem;
-    padding-right: 20rem;
     text-align: center;
-    padding-top: 8rem;
-    /* background: #ccc;
-    background: linear-gradient(rgb(255, 255, 0), rgb(255, 170, 0), rgb(135, 0, 189), #6200cc );
-    font-family: system-ui;
-    font-size: 10rem;
-    line-height: 115%;
-    
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; */
-    font-size: 10rem;
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 3rem;
     font-weight: bold;
     color: aliceblue;
 }
 
+header .header-principal{
+    padding-top: 2rem;
+}
+
 header .header-principal .container .back{
+    /* display: flex; */
     background-image: url(./img/back-title.jpg);
-    width: 120rem;
-    height: 50rem;
+    margin: 1rem;
+    width:auto;
+    height: 20rem;
     border-radius: 4rem;
 }
 
-header .header-principal .container{
-    padding-left: 15rem;
-    padding-top: 5rem;
-}
-
-header h2{
-    font-size: 5rem;
-    color: #6200cc;
-    text-align: center;
-}
-
 header .header-principal p{
-    padding-left: 30rem;
-    padding-right: 30rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     padding-top: 1rem;
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color:rgb(255, 255, 255);
 }
 
-/* ESTILOS DE TARJETAS */
+
+
+/* ESTILOS DEL MAIN */
 
 main{
     background-color: #edede8;
-    display:inline-flexbox;
+    display: inline-flexbox;
     justify-content: center;
-    padding-left: 10%;
-    padding-top: 5rem;
+    /* padding-left: 1%; */
+    padding-top: 1rem;
     color: rgb(22, 22, 37);
     text-align: center;
-    padding-bottom: 50px;
+    /* padding-bottom: 10px; */
 }
 
 main .title-projects{
@@ -133,17 +118,16 @@ main .blog .box .tec{
 }
 
 main .blog{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
-    padding-left: 6rem;
-    max-width: 1100px;
-    /* border-radius: 6px;
-    overflow: hidden; */
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 main .blog .box{
-    width: 100%;
-    height: 52rem;
+    width: 90%;
+    height: 48rem;
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
@@ -158,62 +142,51 @@ main .blog .box:hover{
     transform: translateY(-3%);
 }
 
-
 main .blog .box h1{
     margin-top: 28px;
     justify-content: center;
-    font-size: 2.3rem;
+    font-size: 2rem;
 }
 
 main .blog .box p{
     margin-top: 10px;
     justify-content: center;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     padding-left: 3rem;
     padding-right: 3rem;
 }
 
 main .blog .box .mas{
-    padding-top: 2.7rem;
+    padding-top: 1rem;
 }
 
 main .blog .box a{
-    font-size: 1.9rem;
+    font-size: 1.4rem;
     text-decoration: none;
     color: rgb(0, 61, 59);
     font-weight: bolder;
 }
 
 
-main .container{
-    display: flex;
-    /* justify-content: center; */
-    padding-left: 50rem;
-    padding-top: 6rem;
-}
 
-
-main .solicitud-boton a{
-    padding-top: 5rem;
-
-}
+/* ESTILOS CONTENIDO EXTRA MAIN */
 
 main .sobre-mi .father-box{
     margin-top: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 35rem;
-    padding-left: 19rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 main .sobre-mi .father-box .title h1{
-    font-size: 4rem;
+    font-size: 2.2rem;
     color: aliceblue;
     font-family: system-ui;
     line-height: 115%;
     padding: 4rem;
-    padding-top: 6rem;
+    padding-top: 5rem;
 }
 
 main .sobre-mi .father-box .title{
@@ -222,15 +195,17 @@ main .sobre-mi .father-box .title{
     border-radius: 4rem;
 }
 
-main .sobre-mi .father-box .div-box-fath{
-    padding-left: 2rem;
-}
+
+/* ESTILOS TARJETAS */
+
+/* main .sobre-mi .father-box .div-box-fath{
+    padding-left: rem;
+} */
 
 main .sobre-mi .box{
     margin-top: 3rem;
-    width: 80rem;
-    height: 20rem;
-    background-image: url(./img/back.png);
+    /* padding-right: 5rem; */
+    background-image: url(./img/back.jpg);
     border-radius: 20px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.625);
     cursor: default;
@@ -242,35 +217,33 @@ main .sobre-mi .box:hover{
     transform: translateY(-5%);
 }
 
+
 main .sobre-mi .box p{
-    padding: 5rem;
+    padding: 2rem;
     font-size: 2rem;
     color: aliceblue;
     font-weight:bolder;
 }
 
-main .sobre-mi .father-box .box{
-    background-image: url(./img/back.jpg);
+main{
+    padding-bottom: 6rem;
 }
 
 
 
+/* ESTILOS FOOTER */
 
-
-
-
-
-/* FOOTER */
 footer{
     background-color: #000;
-    padding: 5rem;
+    /* padding: 3rem; */
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     display: flex;
     justify-content: center;
 }
 
 footer .redes a img{
-    width: 40px;
+    width: 30px;
     margin: 20px;
 }
-
 
