@@ -16,7 +16,8 @@ html{
 /* ESTILOS - BARRA DE OPCIONES */
 
 header nav{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
+    border: 4px dotted rgb(202, 202, 202);
 }
 
 header nav ul {
@@ -35,15 +36,16 @@ header nav ul li{
 
 header nav ul li a{
     text-decoration: none;
-    color: #ffff;
+    color: rgb(21, 21, 34);
     font-size: 2rem;
+    font-weight: bold;
 }
 
 
 /* ESTILOS DE FONDO DE HEADER */
 
 header{
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(255, 255, 255);
 }
 
 header .header-principal{
@@ -53,46 +55,61 @@ header .header-principal{
 }
 
 header .header-principal h1{
-    padding-left: 30rem;
-    padding-right: 30rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
     text-align: center;
-    padding-top: 10rem;
-    background: #ccc;
-    background: linear-gradient(yellow, rgb(255, 170, 0), rgb(183, 0, 255), rgb(123, 0, 255) );
+    padding-top: 8rem;
+    /* background: #ccc;
+    background: linear-gradient(rgb(255, 255, 0), rgb(255, 170, 0), rgb(135, 0, 189), #6200cc );
     font-family: system-ui;
     font-size: 10rem;
     line-height: 115%;
     
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; */
+    font-size: 10rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+header .header-principal .container .back{
+    background-image: url(./img/back-title.jpg);
+    width: 120rem;
+    height: 50rem;
+    border-radius: 4rem;
+    border: 5px dotted #ffffff;
+}
+
+header .header-principal .container{
+    padding-left: 15rem;
+    padding-top: 5rem;
 }
 
 header h2{
     font-size: 5rem;
-    color:rgb(162, 0, 255);
+    color: #6200cc;
     text-align: center;
 }
 
 header .header-principal p{
     padding-left: 30rem;
     padding-right: 30rem;
-    padding-top: 5rem;
+    padding-top: 1rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: bold;
-    color: rgb(187, 187, 187);
+    color:rgb(255, 255, 255);
 }
-
 
 /* ESTILOS DE TARJETAS */
 
 main{
-    background-color: rgb(13, 13, 13);
+    background-color: rgb(255, 255, 255);
     display:inline-flexbox;
     justify-content: center;
     padding-left: 10%;
     padding-top: 5rem;
-    color: #fff9;
+    color: rgb(22, 22, 37);
     text-align: center;
     padding-bottom: 50px;
 }
@@ -131,14 +148,14 @@ main .blog .box{
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
-    background: rgb(32, 32, 32);
-    box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.2);
+    background: rgb(236, 236, 236);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     transition: all 400ms ease;
 }
 
 main .blog .box:hover{
-    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     transform: translateY(-3%);
 }
 
@@ -153,6 +170,8 @@ main .blog .box p{
     margin-top: 10px;
     justify-content: center;
     font-size: 1.7rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 main .blog .box .mas{
@@ -162,7 +181,73 @@ main .blog .box .mas{
 main .blog .box a{
     font-size: 1.9rem;
     text-decoration: none;
-    color: rgb(0, 255, 247);
+    color: rgb(0, 61, 59);
+    font-weight: bolder;
+}
+
+
+main .container{
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 50rem;
+    padding-top: 6rem;
+}
+
+
+main .solicitud-boton a{
+    padding-top: 5rem;
+
+}
+
+main .sobre-mi .father-box{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 35rem;
+    padding-left: 19rem;
+}
+
+main .sobre-mi .father-box .title h1{
+    font-size: 4rem;
+    color: aliceblue;
+    font-family: system-ui;
+    line-height: 115%;
+    padding: 4rem;
+    padding-top: 6rem;
+}
+
+main .sobre-mi .father-box .title{
+    background-image: url(./img/back22.jpg);
+    height: 28rem;
+    border-radius: 4rem;
+}
+
+main .sobre-mi .box{
+    margin-top: 3rem;
+    width: 80rem;
+    height: 20rem;
+    background-image: url(./img/back.png);
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.625);
+    cursor: default;
+    transition: all 300ms ease;
+}
+
+main .sobre-mi .box:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.627);
+    transform: translateY(-5%);
+}
+
+main .sobre-mi .box p{
+    padding: 5rem;
+    font-size: 2rem;
+    color: aliceblue;
+    font-weight:bolder;
+}
+
+main .sobre-mi .father-box .box{
+    background-image: url(./img/back.jpg);
 }
 
 
