@@ -41,7 +41,7 @@ header nav ul li a{
 
 /* ESTILOS DEL HEADER */
 header{
-    background-color: #edede8;
+    background-color: #121212;
 }
 
 header .header-principal{
@@ -66,7 +66,7 @@ header .header-principal{
 
 header .header-principal .container .back{
     /* display: flex; */
-    background-image: url(./img/back-title.jpg);
+    background-image: url(./img/back.jpg);
     margin: 1rem;
     width:auto;
     height: 20rem;
@@ -88,12 +88,12 @@ header .header-principal p{
 /* ESTILOS DEL MAIN */
 
 main{
-    background-color: #edede8;
+    background-color: #161616;
     display: inline-flexbox;
     justify-content: center;
     /* padding-left: 1%; */
     padding-top: 1rem;
-    color: rgb(22, 22, 37);
+    color: rgb(251, 251, 255);
     text-align: center;
     /* padding-bottom: 10px; */
 }
@@ -131,7 +131,7 @@ main .blog .box{
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
-    background: rgb(236, 236, 236);
+    background: rgb(39, 39, 39);
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     transition: all 400ms ease;
@@ -163,7 +163,7 @@ main .blog .box .mas{
 main .blog .box a{
     font-size: 1.4rem;
     text-decoration: none;
-    color: rgb(0, 61, 59);
+    color: rgb(0, 255, 225);
     font-weight: bolder;
 }
 

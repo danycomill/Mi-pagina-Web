@@ -45,7 +45,8 @@ header nav ul li a{
 /* ESTILOS DE FONDO DE HEADER */
 
 header{
-    background-color: #edede8;
+    background-color: #121212;
+    padding-bottom: 8rem;
 }
 
 header .header-principal{
@@ -73,7 +74,7 @@ header .header-principal h1{
 }
 
 header .header-principal .container .back{
-    background-image: url(./img/back-title.jpg);
+    background-image: url(./img/back.jpg);
     width: 120rem;
     height: 50rem;
     border-radius: 4rem;
@@ -103,12 +104,12 @@ header .header-principal p{
 /* ESTILOS DE TARJETAS */
 
 main{
-    background-color: #edede8;
+    background-color: #161616;
     display:inline-flexbox;
     justify-content: center;
     padding-left: 10%;
     padding-top: 5rem;
-    color: rgb(22, 22, 37);
+    color: rgb(251, 251, 255);
     text-align: center;
     padding-bottom: 50px;
 }
@@ -147,7 +148,7 @@ main .blog .box{
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
-    background: rgb(236, 236, 236);
+    background: rgb(39, 39, 39);
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     transition: all 400ms ease;
@@ -180,7 +181,7 @@ main .blog .box .mas{
 main .blog .box a{
     font-size: 1.9rem;
     text-decoration: none;
-    color: rgb(0, 61, 59);
+    color: rgb(0, 255, 225);
     font-weight: bolder;
 }
 
@@ -232,13 +233,13 @@ main .sobre-mi .box{
     height: 20rem;
     background-image: url(./img/back.png);
     border-radius: 20px;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.625);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.593);
     cursor: default;
     transition: all 300ms ease;
 }
 
 main .sobre-mi .box:hover{
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.627);
+    box-shadow: 5px 5px 10px rgb(42, 42, 42);
     transform: translateY(-5%);
 }
 
