@@ -162,6 +162,7 @@ main .blog .box p{
     font-size: 1.2rem;
     padding-left: 3rem;
     padding-right: 3rem;
+    padding-bottom: 1.5rem;
 }
 
 main .blog .box .mas{
@@ -169,7 +170,7 @@ main .blog .box .mas{
 }
 
 main .blog .box a{
-    font-size: 1.4rem;
+    font-size: 2.3rem;
     text-decoration: none;
     color: rgb(0, 255, 225);
     font-weight: bolder;
