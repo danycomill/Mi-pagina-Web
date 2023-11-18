@@ -55,9 +55,17 @@ header .header-principal h1{
     padding-top: 3.3rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
-    color: aliceblue;
+    background: #ccc;
+    background: linear-gradient(rgb(255, 255, 0), rgb(255, 170, 0), rgb(135, 0, 189), #6200cc );
+    font-family: system-ui;
+    line-height: 115%;
+    
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    /* color: aliceblue; */
 }
 
 header .header-principal{
@@ -66,7 +74,7 @@ header .header-principal{
 
 header .header-principal .container .back{
     /* display: flex; */
-    background-image: url(./img/back.jpg);
+    background-color: #0e0e0e;
     margin: 1rem;
     width:auto;
     height: 20rem;
